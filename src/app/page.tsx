@@ -12,9 +12,8 @@ export default function Home() {
               <p className="text-start text-muted text-[20px] font-noto whitespace-pre-wrap ">
                 Независимые бизнес-ивенты для участников туристического сектора
                 Центрально-Азиатского региона <br />
-                Главное событие начала года для создателей тревел-впечатлений и
-                продавцов туристических услуг - форум в Самарканде 14-15 февраля
-                2025
+                Главное событие для создателей тревел-впечатлений и продавцов
+                туристических услуг - форум в Самарканде 2025
               </p>
             </div>
           </div>
@@ -33,93 +32,7 @@ export default function Home() {
           Проект USAID по развитию предпринимательства и бизнес-среды.
         </p>
         <hr className="my-10" />
-        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
-          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-pre-wrap sm:whitespace-nowrap sm:max-w-[140px] w-full">
-            <p>24-26 апреля 2024</p>
-            <p>Алматы (Казахстан)</p>
-          </div>
 
-          <div className="w-full">
-            <h2 className="text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
-              <span className="inline-block pe-4">✅</span>
-              <a
-                href="https://samarkandforum.com/tpost/froi7ymvy1-stf-prinyal-uchastie-v-kitf-2024-v-almat"
-                target="_blank"
-                className="border-b border-[#1560d0]"
-              >
-                STF на KITF 2024 в Алматы
-              </a>
-            </h2>
-
-            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24] text-wrap">
-              STF всегда уделяет особое внимание развитию корпоративного сектора
-              в туризме Центральной Азии. Казахстан - один из лидеров
-              корпоративного и MICE туризма региона. Туристическая и отельная
-              инфраструктуры Астаны и Алматы позволяют проводить корпоративные
-              мероприятия разных, в том числе крупных, масштабов. Мы будем рады
-              познакомиться с потенциальными партнерами и спикерами STF 2025 на
-              площадке KITF.
-            </p>
-          </div>
-        </div>
-        <hr className="my-10" />
-        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
-          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-nowrap max-w-[140px] w-full">
-            <p> Июнь 2024</p>
-            <p>Онлайн</p>
-          </div>
-
-          <div>
-            <h2 className=" text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
-              <span className="inline-block pe-4">✅</span>
-              <a
-                href="https://www.youtube.com/playlist?list=PLFXHglCF_XaRdkXD05uy6TqjB8bBBlG8V"
-                target="_blank"
-                className="border-b border-[#1560d0]"
-              >
-                Лидеры туризма Центральной Азии: опыт, партнерства, перспективы.
-              </a>
-              <span className="text-[#1e1e24]">
-                Видео-стримы на нашем Youtube-канале
-              </span>
-            </h2>
-
-            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
-              STF всегда уделяет особое внимание развитию корпоративного сектора
-              в туризме Центральной Азии. Казахстан - один из лидеров
-              корпоративного и MICE туризма региона. Туристическая и отельная
-              инфраструктуры Астаны и Алматы позволяют проводить корпоративные
-              мероприятия разных, в том числе крупных, масштабов. Мы будем рады
-              познакомиться с потенциальными партнерами и спикерами STF 2025 на
-              площадке KITF.
-            </p>
-          </div>
-        </div>
-        <hr className="my-10" />
-        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
-          <div className="  text-[18px] leading-[1.35] font-semibold font-noto  max-w-[140px] w-full">
-            <p>7-8 июня 2024</p>
-            <p>Иссык-Куль (Кыргызская Республика)</p>
-          </div>
-
-          <div>
-            <h2 className=" text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
-              <span className="inline-block pe-4">✅</span>
-              <span className="text-[#1e1e24]">STF на выставке IITF 2024</span>
-            </h2>
-
-            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
-              Кыргызстан привлекает путешественников, интересующихся
-              альпинизмом, горными трекингами и другими активными видами отдыха
-              и аутентичного туризма. Дестинации Кыргызстана задают высокую
-              планку устойчивости и уровня сервиса для других дестинаций и
-              турпродуктов региона. На ITF мы будем следить за развитием старых
-              и новых дестинаций, и выбирать интересные кейсы и спикеров для
-              программы STF 2025.
-            </p>
-          </div>
-        </div>
-        <hr className="my-10" />
         <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
           <div className="  text-[18px] leading-[1.35] font-semibold font-noto  max-w-[140px] w-full">
             <p>28-30 июня 2024</p>
@@ -194,36 +107,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <hr className="my-10" />
-        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
-          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-nowrap max-w-[140px] w-full">
-            <p> 25 cентября 2024</p>
-            <p>Бишкек (Кыргызстан)</p>
-          </div>
-
-          <div className="w-full">
-            <h2 className="text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
-              <span className="inline-block pe-4">✅</span>
-              <a
-                href="https://samarkandforum.com/ru/projects/travel-tech-day-bishkek"
-                target="_blank"
-                className="border-b border-[#1560d0]"
-              >
-                TravelTech Day Bishkek 2024
-              </a>
-            </h2>
-
-            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
-              Приглашаем TravelTech-компании и стартапы из Центральной Азии,
-              работающие с IT-технологиями в индустриях туризма и
-              гостеприимства, имеющие как минимум MVP. Ключевые эксперты
-              индустрии, выберут 3-х победителей, которым будет оказана
-              поддержка в поиске партнеров на рынке ЦА. Презентуйте свои
-              проекты, найдите партнеров и откройте новые горизонты для вашего
-              бизнеса!
-            </p>
-          </div>
-        </div>
+    
         <hr className="my-10" />
         <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
           <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-nowrap max-w-[140px] w-full">
@@ -337,13 +221,13 @@ export default function Home() {
           <div className="w-full">
             <h2 className="text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
               <span className="text-[#1e1e24]"> STF на </span>
-
+             
               <a
-                href="https://en.ttgexpo.it/"
+                href="https://www.sihe.ch/en/"
                 target="_blank"
                 className="border-b border-[#1560d0]"
               >
-                IBTM World
+                 Swiss International Holiday Exhibition 2024
               </a>
             </h2>
 
@@ -425,7 +309,124 @@ export default function Home() {
           </div>
         </div>
 
+        <hr className="py-10" />
+
+        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
+          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-pre-wrap sm:whitespace-nowrap sm:max-w-[140px] w-full">
+            <p>24-26 апреля 2024</p>
+            <p>Алматы (Казахстан)</p>
+          </div>
+
+          <div className="w-full">
+            <h2 className="text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
+              <span className="inline-block pe-4">✅</span>
+              <a
+                href="https://samarkandforum.com/tpost/froi7ymvy1-stf-prinyal-uchastie-v-kitf-2024-v-almat"
+                target="_blank"
+                className="border-b border-[#1560d0]"
+              >
+                STF на KITF 2024 в Алматы
+              </a>
+            </h2>
+
+            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24] text-wrap">
+              STF всегда уделяет особое внимание развитию корпоративного сектора
+              в туризме Центральной Азии. Казахстан - один из лидеров
+              корпоративного и MICE туризма региона. Туристическая и отельная
+              инфраструктуры Астаны и Алматы позволяют проводить корпоративные
+              мероприятия разных, в том числе крупных, масштабов. Мы будем рады
+              познакомиться с потенциальными партнерами и спикерами STF 2025 на
+              площадке KITF.
+            </p>
+          </div>
+        </div>
         <hr className="my-10" />
+        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
+          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-nowrap max-w-[140px] w-full">
+            <p> Июнь 2024</p>
+            <p>Онлайн</p>
+          </div>
+
+          <div>
+            <h2 className=" text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
+              <span className="inline-block pe-4">✅</span>
+              <a
+                href="https://www.youtube.com/playlist?list=PLFXHglCF_XaRdkXD05uy6TqjB8bBBlG8V"
+                target="_blank"
+                className="border-b border-[#1560d0]"
+              >
+                Лидеры туризма Центральной Азии: опыт, партнерства, перспективы.
+              </a>
+              <span className="text-[#1e1e24]">
+                Видео-стримы на нашем Youtube-канале
+              </span>
+            </h2>
+
+            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
+              STF всегда уделяет особое внимание развитию корпоративного сектора
+              в туризме Центральной Азии. Казахстан - один из лидеров
+              корпоративного и MICE туризма региона. Туристическая и отельная
+              инфраструктуры Астаны и Алматы позволяют проводить корпоративные
+              мероприятия разных, в том числе крупных, масштабов. Мы будем рады
+              познакомиться с потенциальными партнерами и спикерами STF 2025 на
+              площадке KITF.
+            </p>
+          </div>
+        </div>
+        <hr className="my-10" />
+        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20">
+          <div className="  text-[18px] leading-[1.35] font-semibold font-noto  max-w-[140px] w-full">
+            <p>7-8 июня 2024</p>
+            <p>Иссык-Куль (Кыргызская Республика)</p>
+          </div>
+
+          <div>
+            <h2 className=" text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
+              <span className="inline-block pe-4">✅</span>
+              <span className="text-[#1e1e24]">STF на выставке IITF 2024</span>
+            </h2>
+
+            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
+              Кыргызстан привлекает путешественников, интересующихся
+              альпинизмом, горными трекингами и другими активными видами отдыха
+              и аутентичного туризма. Дестинации Кыргызстана задают высокую
+              планку устойчивости и уровня сервиса для других дестинаций и
+              турпродуктов региона. На ITF мы будем следить за развитием старых
+              и новых дестинаций, и выбирать интересные кейсы и спикеров для
+              программы STF 2025.
+            </p>
+          </div>
+        </div>
+        <hr className="my-10" />
+        <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-x-20 mb-10">
+          <div className="  text-[18px] leading-[1.35] font-semibold font-noto whitespace-nowrap max-w-[140px] w-full">
+            <p> 25 cентября 2024</p>
+            <p>Бишкек (Кыргызстан)</p>
+          </div>
+
+          <div className="w-full">
+            <h2 className="text-[#1560d0] text-[24px] font-noto font-semibold mb-5">
+              <span className="inline-block pe-4">✅</span>
+              <a
+                href="https://samarkandforum.com/ru/projects/travel-tech-day-bishkek"
+                target="_blank"
+                className="border-b border-[#1560d0]"
+              >
+                TravelTech Day Bishkek 2024
+              </a>
+            </h2>
+
+            <p className="font-notoarial text-start text-[16px] font-light text-[#1e1e24]">
+              Приглашаем TravelTech-компании и стартапы из Центральной Азии,
+              работающие с IT-технологиями в индустриях туризма и
+              гостеприимства, имеющие как минимум MVP. Ключевые эксперты
+              индустрии, выберут 3-х победителей, которым будет оказана
+              поддержка в поиске партнеров на рынке ЦА. Презентуйте свои
+              проекты, найдите партнеров и откройте новые горизонты для вашего
+              бизнеса!
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );

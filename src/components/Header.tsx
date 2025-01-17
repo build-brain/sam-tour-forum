@@ -78,7 +78,7 @@ export function MainNav({
               >
                 Партнерам
               </Link>
-              <Link
+              {/* <Link
                 href="/fasilitation"
                 className={`text-base  font-bold  transition-colors   mx-[12px] my-[15px] ${
                   isActive("/fasilitation")
@@ -87,7 +87,7 @@ export function MainNav({
                 }`}
               >
                 Фасилитация
-              </Link>
+              </Link> */}
               <Link
                 href="/aboutus"
                 className={`text-base  font-bold  transition-colors  mx-[12px] my-[15px] ${
@@ -133,7 +133,7 @@ export function MainNav({
           >
             Партнерам
           </Link>
-          <Link
+          {/* <Link
             href="/fasilitation"
             className={`text-base  font-bold  transition-colors   mx-[12px] my-[15px] ${
               isActive("/fasilitation")
@@ -142,7 +142,7 @@ export function MainNav({
             }`}
           >
             Фасилитация
-          </Link>
+          </Link> */}
           <Link
             href="/aboutus"
             className={`text-base  font-bold  transition-colors  mx-[12px] my-[15px] ${
@@ -165,7 +165,7 @@ export function MainNav({
           </Link>
         </nav>
         <div className=" items-center gap-5 hidden sm:flex">
-          <span>+998 935003936</span>
+          <span>+998 91 5247925</span>
           <ul
             role="list"
             className="flex items-center gap-2 custom-list"
@@ -173,7 +173,7 @@ export function MainNav({
           >
             <li className="t-sociallinks__item t-sociallinks__item_telegram">
               <a
-                href="https://t.me/m_tourismolog"
+                href="https://t.me/srtaadmin"
                 target="_blank"
                 rel="nofollow noopener"
                 aria-label="Telegram Chat"
@@ -202,7 +202,7 @@ export function MainNav({
             &nbsp;
             <li className="t-sociallinks__item t-sociallinks__item_whatsapp">
               <a
-                href="https://wa.me/998935003936"
+                href="https://wa.me/998915247925"
                 target="_blank"
                 rel="nofollow noopener"
                 aria-label="WhatsApp"
@@ -231,7 +231,8 @@ export function MainNav({
             &nbsp;
             <li className="t-sociallinks__item t-sociallinks__item_email">
               <a
-                href="mailto:team@samarkandforum.com"
+
+             href="mailto:russia@silkroaddestinations.com?subject=SweetWords&body=Please send me a copy of your new program!"
                 target="_blank"
                 rel="nofollow"
                 aria-label="Email"

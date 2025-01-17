@@ -4,44 +4,44 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 export default function Projects() {
-  const [activeSection, setActiveSection] = useState<string>("forum");
+  // const [activeSection, setActiveSection] = useState<string>("forum");
 
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.6,
-    };
+  // useEffect(() => {
+  //   const observerOptions = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 0.6,
+  //   };
 
-    const observerCallback = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      });
-    };
+  //   const observerCallback = (entries: IntersectionObserverEntry[]) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         setActiveSection(entry.target.id);
+  //       }
+  //     });
+  //   };
 
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
+  //   const observer = new IntersectionObserver(
+  //     observerCallback,
+  //     observerOptions
+  //   );
 
-    const sections = document.querySelectorAll("section");
-    sections.forEach((section) => observer.observe(section));
+  //   const sections = document.querySelectorAll("section");
+  //   sections.forEach((section) => observer.observe(section));
 
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
+  //   return () => {
+  //     sections.forEach((section) => observer.unobserve(section));
+  //   };
+  // }, []);
 
-  const handleScrollTo = (id: string) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const handleScrollTo = (id: string) => {
+  //   const section = document.getElementById(id);
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
-  const isActive = (id: string) => activeSection === id;
+  // const isActive = (id: string) => activeSection === id;
 
   return (
     <div className="px-4 md:px-20 2xl:px-80 pt-32">
@@ -49,7 +49,7 @@ export default function Projects() {
         Проекты
       </h1>
 
-      <div className="flex  sticky top-24 gap-4 items-center">
+      {/* <div className="flex  sticky top-24 gap-4 items-center">
         <button
           onClick={() => handleScrollTo("forum")}
           className={`rounded-[30px] border-2 border-[#9b9baa] py-3 px-5 text-[12px] ${
@@ -67,7 +67,7 @@ export default function Projects() {
         >
           Онлайн-мероприятия
         </button>
-      </div>
+      </div> */}
 
       <section id="forum" className=" scroll-mt-24">
         <h2 className="text-3xl font-bold pt-20">Форумы и конференции</h2>
@@ -186,7 +186,7 @@ export default function Projects() {
         </div>
       </section>
 
-      <section id="conference" className="my-20 scroll-mt-24">
+      {/* <section id="conference" className="my-20 scroll-mt-24">
         <h2 className="text-3xl font-bold pt-20 pb-10">Онлайн-мероприятия</h2>
 
         <div className="grid grid-cols-1  sm:grid-cols-3 gap-2 sm:gap-5">
@@ -381,7 +381,7 @@ export default function Projects() {
           </div>
             </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
